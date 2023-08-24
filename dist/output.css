@@ -2687,6 +2687,10 @@ video {
   writing-mode: vertical-rl;
 }
 
+.\[background-image\:url\(img\/mainvisual-sp\.jpg\)\] {
+  background-image: url(img/mainvisual-sp.jpg);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2856,6 +2860,10 @@ video {
 
   .lg\:\[background-image\:url\(\/img\/mainvisual-pc\.jpg\)\] {
     background-image: url(/img/mainvisual-pc.jpg);
+  }
+
+  .lg\:\[background-image\:url\(img\/mainvisual-pc\.jpg\)\] {
+    background-image: url(img/mainvisual-pc.jpg);
   }
 }
 

@@ -2703,6 +2703,10 @@ video {
   background-image: ../img/mainvisual-sp.jpg;
 }
 
+.\[background-image\:\.\/img\/mainvisual-sp\.jpg\] {
+  background-image: ./img/mainvisual-sp.jpg;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2896,6 +2900,10 @@ video {
 
   .lg\:\[background-image\:\.\.\/img\/mainvisual-pc\.jpg\] {
     background-image: ../img/mainvisual-pc.jpg;
+  }
+
+  .lg\:\[background-image\:\.\/img\/mainvisual-pc\.jpg\] {
+    background-image: ./img/mainvisual-pc.jpg;
   }
 }
 

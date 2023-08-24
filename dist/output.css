@@ -2723,6 +2723,18 @@ video {
   background-image: url("https://github.com/is-uko/portfolio-store3/blob/main/img/mainvisual-sp.jpg");
 }
 
+.\[background-image\:url\(\"img\/mainvisual-sp\.jpg\"\)\] {
+  background-image: url("img/mainvisual-sp.jpg");
+}
+
+.\[background-image\:url\(\"\/img\/mainvisual-sp\.jpg\"\)\] {
+  background-image: url("/img/mainvisual-sp.jpg");
+}
+
+.\[background-image\:url\(https\:\/\/github\.com\/is-uko\/portfolio-store3\/blob\/main\/img\/mainvisual-pc\.jpg\)\] {
+  background-image: url(https://github.com/is-uko/portfolio-store3/blob/main/img/mainvisual-pc.jpg);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2928,6 +2940,14 @@ video {
 
   .lg\:\[background-image\:url\(\"https\:\/\/github\.com\/is-uko\/portfolio-store3\/blob\/main\/img\/mainvisual-pc\.jpg\"\)\] {
     background-image: url("https://github.com/is-uko/portfolio-store3/blob/main/img/mainvisual-pc.jpg");
+  }
+
+  .lg\:\[background-image\:url\(\"lob\/main\/img\/mainvisual-pc\.jpg\"\)\] {
+    background-image: url("lob/main/img/mainvisual-pc.jpg");
+  }
+
+  .lg\:\[background-image\:url\(\"\/img\/mainvisual-pc\.jpg\"\)\] {
+    background-image: url("/img/mainvisual-pc.jpg");
   }
 }
 

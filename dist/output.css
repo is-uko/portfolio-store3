@@ -2699,6 +2699,10 @@ video {
   background-image: url(https://github.com/is-uko/portfolio-store3/blob/main/img/mainvisual-sp.jpg);
 }
 
+.\[background-image\:\.\.\/img\/mainvisual-sp\.jpg\] {
+  background-image: ../img/mainvisual-sp.jpg;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2888,6 +2892,10 @@ video {
 
   .lg\:\[background-image\:url\(https\:\/\/github\.com\/is-uko\/portfolio-store3\/blob\/main\/img\/mainvisual-pc\.jpg\)\] {
     background-image: url(https://github.com/is-uko/portfolio-store3/blob/main/img/mainvisual-pc.jpg);
+  }
+
+  .lg\:\[background-image\:\.\.\/img\/mainvisual-pc\.jpg\] {
+    background-image: ../img/mainvisual-pc.jpg;
   }
 }
 
